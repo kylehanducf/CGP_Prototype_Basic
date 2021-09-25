@@ -1,0 +1,238 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="TV_Credits_Widget"
+   Begin Object Class=/Script/Engine.EdGraph Name="ExecuteUbergraph_TV_Credits_Widget"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_13"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_6"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_2"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_3"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_1"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_4"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_0"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="BGImage"
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_0"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_8"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.VerticalBox Name="CreditsBox"
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_4"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_3"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_5"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_6"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_2"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_0"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_1"
+         End Object
+         Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_8"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="DoneButton"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+   End Object
+   Begin Object Name="ExecuteUbergraph_TV_Credits_Widget"
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      GraphGuid=A23683524520E2996ECDDDACCDC2BE14
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_Event_2"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=416
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=C17481FA4D5E802E62911E8EEA715E66
+         CustomProperties Pin (PinId=7E426B4B4BF1F1DC4A8745A8A7B789C4,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D986A4924358A3E2C5C0038290E68E73,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3DBC12484799AF189BA34599C6A990C8,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=ScriptStruct'"/Script/SlateCore.Geometry"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=953AD65F455CA07248A5C5B61B9A52BC,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=208
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=3CA4688A4AAAAEB162FD48AAFD93F923
+         CustomProperties Pin (PinId=B7DD3F5C4E9427ABE8961CB5802A4B38,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B5C32FC94775D0DB7ABF68AB2B61B85B,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=107CBE02493C08C692A170A27EC3F81E
+         CustomProperties Pin (PinId=F29F457247278FEA04B426971AF8BA71,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=143FAF1E4AD97A3DBC6789882E12AB40,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4B84C629455181FFD5CA2B9571D7A884,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_Event'"K2Node_Event_0"'
+      Nodes(1)=K2Node_Event'"K2Node_Event_1"'
+      Nodes(2)=K2Node_Event'"K2Node_Event_2"'
+      bAllowDeletion=False
+      GraphGuid=AF35AADC4779C31F688E8188AED11435
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="TextBlock_13"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "A1EBD20B4CDB7A1A072CEBB2A86D37B2", "Done")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Over_There_Font.Over_There_Font"',TypefaceFontName="Default")
+      End Object
+      Begin Object Name="TextBlock_6"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "4E2E74FF4B90242F832311B5D05D98C0", "Created using Unreal Engine 4")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Mad_Mecha_Font.Mad_Mecha_Font"',TypefaceFontName="Default",Size=40,LetterSpacing=50)
+      End Object
+      Begin Object Name="TextBlock"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "5759038A4647FC912A0735AD0056A043", "UI/UX Design: Jessica Wise")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Mad_Mecha_Font.Mad_Mecha_Font"',TypefaceFontName="Default",Size=40,LetterSpacing=50)
+      End Object
+      Begin Object Name="TextBlock_2"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "CE8D83C84B8C6779F04879BF14AE7614", "Level Design: Hector Pacheco")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Mad_Mecha_Font.Mad_Mecha_Font"',TypefaceFontName="Default",Size=40,LetterSpacing=50)
+      End Object
+      Begin Object Name="TextBlock_3"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "98DFFECC4FD05767F0BAD496DF876207", "Level Design: Kyle Hand")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Mad_Mecha_Font.Mad_Mecha_Font"',TypefaceFontName="Default",Size=40,LetterSpacing=50)
+      End Object
+      Begin Object Name="TextBlock_1"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "5D01CBC643B3601A3DFD368E94040448", "Programming: Kortney Menefee")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Mad_Mecha_Font.Mad_Mecha_Font"',TypefaceFontName="Default",Size=40,LetterSpacing=50)
+      End Object
+      Begin Object Name="TextBlock_4"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "5256E82C46F42D4325C727B2F565E5ED", "Art: Erik Lovejoy")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Mad_Mecha_Font.Mad_Mecha_Font"',TypefaceFontName="Default",Size=40,LetterSpacing=50)
+      End Object
+      Begin Object Name="TextBlock_0"
+         Text=NSLOCTEXT("[7C218D7840AA33B8926D3BAA52BB631E]", "181FF3894A06D433774D0BB57ACE2A5B", "Credits")
+         Font=(FontObject=Font'"/Game/Blueprints/UI/Fonts/Over_There_Font.Over_There_Font"',TypefaceFontName="Default",Size=62)
+      End Object
+      Begin Object Name="BGImage"
+         Brush=(ImageSize=(X=4000.000000,Y=6000.000000),ResourceObject=Material'"/Game/Materials/M_Holographic_UI.M_Holographic_UI"')
+         ColorAndOpacity=(R=0.291667,G=0.291667,B=0.291667,A=1.000000)
+         DisplayLabel="BGImage"
+      End Object
+      Begin Object Name="CanvasPanel_0"
+         Begin Object Name="CanvasPanelSlot_1"
+            LayoutData=(Offsets=(Left=-632.960938,Top=48.000000,Right=1254.487793,Bottom=905.309753),Anchors=(Minimum=(X=0.500000,Y=0.000000),Maximum=(X=0.500000,Y=0.000000)))
+            Parent=CanvasPanel'"TV_Credits_Widget:WidgetTree.CanvasPanel_0"'
+            Content=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_8"
+            LayoutData=(Offsets=(Left=4.000000,Top=4.000000,Right=-2.078125,Bottom=-2.918945),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent=CanvasPanel'"TV_Credits_Widget:WidgetTree.CanvasPanel_0"'
+            Content=Image'"TV_Credits_Widget:WidgetTree.BGImage"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_8"'
+         Slots(1)=CanvasPanelSlot'"CanvasPanelSlot_1"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="CreditsBox"
+         Begin Object Name="VerticalBoxSlot_4"
+            Padding=(Left=50.000000,Top=50.000000,Right=50.000000,Bottom=50.000000)
+            HorizontalAlignment=HAlign_Center
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock_6"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_3"
+            Padding=(Left=15.000000,Top=15.000000,Right=15.000000,Bottom=15.000000)
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_5"
+            Padding=(Left=15.000000,Top=15.000000,Right=15.000000,Bottom=15.000000)
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock_2"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_6"
+            Padding=(Left=15.000000,Top=15.000000,Right=15.000000,Bottom=15.000000)
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock_3"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_2"
+            Padding=(Left=15.000000,Top=15.000000,Right=15.000000,Bottom=15.000000)
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock_1"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_0"
+            Padding=(Left=15.000000,Top=15.000000,Right=15.000000,Bottom=15.000000)
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock_4"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_1"
+            Padding=(Left=15.000000,Top=15.000000,Right=15.000000,Bottom=15.000000)
+            HorizontalAlignment=HAlign_Center
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock_0"'
+         End Object
+         Begin Object Name="VerticalBoxSlot_8"
+            HorizontalAlignment=HAlign_Center
+            VerticalAlignment=VAlign_Center
+            Parent=VerticalBox'"TV_Credits_Widget:WidgetTree.CreditsBox"'
+            Content=Button'"TV_Credits_Widget:WidgetTree.DoneButton"'
+         End Object
+         Slots(0)=VerticalBoxSlot'"VerticalBoxSlot_1"'
+         Slots(1)=VerticalBoxSlot'"VerticalBoxSlot_0"'
+         Slots(2)=VerticalBoxSlot'"VerticalBoxSlot_2"'
+         Slots(3)=VerticalBoxSlot'"VerticalBoxSlot_6"'
+         Slots(4)=VerticalBoxSlot'"VerticalBoxSlot_5"'
+         Slots(5)=VerticalBoxSlot'"VerticalBoxSlot_3"'
+         Slots(6)=VerticalBoxSlot'"VerticalBoxSlot_4"'
+         Slots(7)=VerticalBoxSlot'"VerticalBoxSlot_8"'
+         DisplayLabel="CreditsBox"
+      End Object
+      Begin Object Name="DoneButton"
+         Begin Object Name="ButtonSlot_0"
+            Padding=(Left=20.000000,Top=20.000000,Right=20.000000,Bottom=20.000000)
+            Parent=Button'"TV_Credits_Widget:WidgetTree.DoneButton"'
+            Content=TextBlock'"TV_Credits_Widget:WidgetTree.TextBlock_13"'
+         End Object
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         bExpandedInDesigner=True
+         DisplayLabel="DoneButton"
+      End Object
+      RootWidget=CanvasPanel'"CanvasPanel_0"'
+   End Object
+   ParentClass=Class'"/Script/UMG.UserWidget"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="TV Credits Widget"
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/Blueprints/UI/Widgets/TV_Credits_Widget.TV_Credits_Widget:EventGraph,SavedViewOffset=(X=-175.348755,Y=284.528625),SavedZoomAmount=1.000000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'"TV_Credits_Widget_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=5D0229964394788EC029FDA6B3737A9D
+End Object
